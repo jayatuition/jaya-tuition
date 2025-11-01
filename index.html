@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Tuition - Book Your Class</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            scroll-behavior: smooth; /* Smooth scrolling for navigation links */
+        }
+        /* Custom styling for smooth interaction */
+        .btn-primary {
+            transition: background-color 0.3s, transform 0.1s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
+            <h1 class="text-4xl font-extrabold text-indigo-700 flex items-center space-x-2">
+                <!-- IMPORTANT: Replace the src with your actual GIF logo URL -->
+                <img src="C:\Users\jayanand\Pictures\jaya tuitions\logo.gif" alt="Jaya Tuition Logo" class="h-16 w-16 object-contain">
+                <span>JAYA TUITION</span>
+            </h1>
+            <nav class="hidden md:flex space-x-8">
+                <!-- Links updated to point to new sections -->
+                <a href="#courses" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-150">Courses</a>
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-150">About Us</a>
+                <a href="#tutors" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-150">Tutors</a>
+                <!-- YouTube External Link -->
+                <a href="https://youtube.com/playlist?list=PLkqX3VWF7YZo1MDuahWJ9uZm7T71znhLF&si=br36lnwiDWOy2JJG" target="_blank" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-150">YouTube Resources</a>
+            </nav>
+            <div class="md:hidden text-2xl text-indigo-700">☰</div>
+        </div>
+    </header>
+
+    <main class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Hero Section -->
+            <section class="text-center mb-16 bg-white p-8 rounded-xl shadow-lg">
+                <h2 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4 leading-tight">
+                    Excel in Academics with Personalized Coaching
+                </h2>
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Transform your study habits and achieve top grades. We offer expert tutoring for all major subjects.
+                </p>
+
+                <!-- BUTTON CONVERTED TO DIRECT LINK TO YOUR GAS WEB APP -->
+                <a href="https://script.google.com/macros/s/AKfycbxP1Elz8lrNTU4iY4sq4kGr5LiogZmofqjemWv2LIhStQFxbIL4yyDXsaOyxb0FoF6o/exec"
+                   target="_blank"
+                   class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg text-lg btn-primary">
+                    Book Your Class Today!
+                </a>
+            </section>
+
+            <!-- Features Section (Existing) -->
+            <section class="mb-16">
+                <h3 class="text-3xl font-bold text-gray-800 mb-8 text-center">Why Choose Jaya Tuition?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature Card 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-indigo-500">
+                        <p class="text-5xl mb-4">📚</p>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-2">Small Group Classes</h4>
+                        <p class="text-gray-600">Personalized attention in small settings (max 5 students) to ensure focused learning and peer support.</p>
+                    </div>
+                    <!-- Feature Card 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-indigo-500">
+                        <p class="text-5xl mb-4">👨‍🏫</p>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-2">Expert Tutors</h4>
+                        <p class="text-gray-600">Our tutors are experienced educators who simplify complex concepts and inspire confidence.</p>
+                    </div>
+                    <!-- Feature Card 3 -->
+                    <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-indigo-500">
+                        <p class="text-5xl mb-4">🎯</p>
+                        <h4 class="text-xl font-semibold text-gray-900 mb-2">Custom Curriculum</h4>
+                        <p class="text-gray-600">Curriculum tailored to your specific examination board and learning pace for maximum efficiency.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- --------------------------------------- -->
+            <!-- NEW SECTION: COURSES -->
+            <!-- --------------------------------------- -->
+            <section id="courses" class="pt-12 mb-16">
+                <h3 class="text-4xl font-extrabold text-gray-900 mb-10 text-center border-b-2 border-indigo-200 pb-2">Our Core Courses</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-indigo-700 mb-3">Advanced Mathematics &</br-> General Math</br-></h4>
+                            <p class="text-gray-600 mb-4">Focuses on Calculus, Algebra, and advanced problem-solving techniques. Ideal for students aiming for competitive exams.</p>
+                            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">SPM,STPM,IGCSE, A-Level,IB </span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-indigo-700 mb-3">Science (Physics)</h4>
+                            <p class="text-gray-600 mb-4">Integrated tutoring for Physics. We ensure strong conceptual foundations and practical application.</p>
+                            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">Form 1 to Form 5, IGCSE, A-Level,IB and STPM</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-indigo-700 mb-3">IIT JEE, NEET </h4>
+                            <p class="text-gray-600 mb-4">Improve critical thinking, and develop structured, persuasive problem skills essential for all entrance exams.</p>
+                            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">Competitive exams, Pre-University</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- --------------------------------------- -->
+            <!-- NEW SECTION: ABOUT US -->
+            <!-- --------------------------------------- -->
+            <section id="about" class="pt-12 mb-16 bg-white p-10 rounded-xl shadow-lg">
+                <h3 class="text-4xl font-extrabold text-gray-900 mb-8 text-center border-b-2 border-indigo-200 pb-2">Our Vision & History</h3>
+
+                <div class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
+                    <p class="mb-6">
+                        Jaya Tuition was founded in 2018 with the simple mission of making high-quality, personalized education accessible. We recognized that traditional classroom settings often fail to address individual learning gaps. Our approach combines expert instruction with customized learning paths.
+                    </p>
+                    <p class="mb-6 border-l-4 border-indigo-500 pl-4 italic bg-indigo-50 p-3 rounded-lg">
+                        "We believe that every student has unique potential. Our goal is to unlock that potential through encouragement, rigorous teaching, and a supportive learning environment."
+                    </p>
+                    <p>
+                        Over the past five years, we have helped hundreds of students achieve their academic goals, whether it's acing a major exam, gaining entry to a top university, or simply building greater confidence in a challenging subject. We focus on building critical thinking skills, not just rote memorization.
+                    </p>
+                </div>
+            </section>
+
+            <!-- --------------------------------------- -->
+            <!-- NEW SECTION: TUTORS -->
+            <!-- --------------------------------------- -->
+            <section id="tutors" class="pt-12 mb-16">
+                <h3 class="text-4xl font-extrabold text-gray-900 mb-10 text-center border-b-2 border-indigo-200 pb-2">Meet Our Expert Tutors</h3>
+
+                <!--<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">-->
+                <!-- Tutor Card 1 -->
+                <div class="bg-white rounded-xl shadow-xl p-6 text-center">
+                    <img src="https://placehold.co/100x100/4f46e5/ffffff?text=JT" alt="Tutor Profile" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-indigo-500">
+                    <h4 class="text-xl font-bold text-gray-900"> Prof Jayanand Naidu </h4>
+                    <p class="text-indigo-600 mb-2"> Ex-Prof Mumbai Univeristy, INDIA</p>
+                    <p class="text-sm text-gray-600">Msc. in Physics, MBA  30+ years experience specializing in examination preparation and complex problem-solving.</p>
+                </div>
+
+                <!-- Tutor Card 2 -->
+                <!--<div class="bg-white rounded-xl shadow-xl p-6 text-center">
+                    <img src="https://placehold.co/100x100/10b981/ffffff?text=JT" alt="Tutor Profile" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-indigo-500">
+                    <h4 class="text-xl font-bold text-gray-900">Mr. Alex Johnson</h4>
+                    <p class="text-indigo-600 mb-2">Mathematics Specialist</p>
+                    <p class="text-sm text-gray-600">Master's in Pure Mathematics. Known for simplifying algebraic and calculus concepts for all ages.</p>
+                </div>-->
+                <!-- Tutor Card 3 -->
+                <!--<div class="bg-white rounded-xl shadow-xl p-6 text-center">
+                    <img src="https://placehold.co/100x100/f59e0b/ffffff?text=JT" alt="Tutor Profile" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-indigo-500">
+                    <h4 class="text-xl font-bold text-gray-900">Ms. Rita Sharma</h4>
+                    <p class="text-indigo-600 mb-2">English & Humanities</p>
+                    <p class="text-sm text-gray-600">Former English Teacher. Expert in literary analysis and helping students perfect their college application essays.</p>
+                </div>-->
+                <!-- Tutor Card 4 -->
+                <!--<div class="bg-white rounded-xl shadow-xl p-6 text-center">
+                    <img src="https://placehold.co/100x100/ef4444/ffffff?text=JT" alt="Tutor Profile" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-indigo-500">
+                    <h4 class="text-xl font-bold text-gray-900">Tutor Team</h4>
+                    <p class="text-indigo-600 mb-2">And More Experts!</p>
+                    <p class="text-sm text-gray-600">Our full team of certified tutors covers all curriculum subjects. Click to see the full list.</p>
+                </div>-->
+                <!--</div>-->
+                <div class="text-center mt-10">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-6 rounded-xl shadow-md transition duration-150">
+                        View Full Tutor Directory
+                    </button>
+                </div>
+            </section>
+
+            <!-- Example External Resources Section -->
+            <section class="mt-16 text-center">
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">Learning Resources</h3>
+                <p class="text-gray-600 mb-4">Check out our curated external links for further study materials:</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://example.com/recommended-books" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium">
+                        📘 Recommended Books List
+                    </a>
+                    <a href="https://wikipedia.org/some-subject" target="_blank" class="text-indigo-600 hover:text-indigo-800 font-medium">
+                        🧠 Wikipedia Study Topics
+                    </a>
+                </div>
+            </section>
+            <!-- --------------------------------------- -->
+            <!-- NEW SECTION: LOCATION & GOOGLE MAP -->
+            <!-- --------------------------------------- -->
+            <!-- <section id="location" class="pt-12 mb-16">
+                    <h3 class="text-4xl font-extrabold text-gray-900 mb-10 text-center border-b-2 border-indigo-200 pb-2">Find Us</h3>
+                    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-xl overflow-hidden">
+                        <div class="h-96 w-full">
+                            <!--
+                        IMPORTANT:
+                        1. Go to Google Maps, find your location.
+                        2. Click 'Share' -> 'Embed a map' -> 'Copy HTML'.
+                        3. PASTE THE ENTIRE <iframe> CODE BELOW, replacing the placeholder.
+
+                            <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5318.501170977158!2d101.43231990263571!3d2.9934986369756977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdab6f5c493595%3A0x3b34ddabb568b129!2sJaya%20Tuition!5e0!3m2!1sen!2smy!4v1760704206622!5m2!1sen!2smy"
+                                 width="450"
+                                 height="450"
+                                 style="border:0;"
+                                 allowfullscreen=""
+                                 loading="lazy"
+                                 referrerpolicy="no-referrer-when-downgrade">
+
+                            </iframe>
+                        </div>
+                        <div class="p-6 text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-1">Jaya Tuition Headquarters</h4>
+                            <p class="text-gray-600">Visit us during office hours for a consultation. Click the map for directions!</p>
+                        </div>
+                    </div>
+                </section>
+            -->
+
+
+        </div>
+    </main>
+
+    <!-- Footer MODIFIED TO INCLUDE WHATSAPP AND EMAIL -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-700 pb-8 mb-6">
+
+                <!-- Column 1: Brand Info -->
+                <div class="space-y-3">
+                    <h4 class="text-xl font-bold text-indigo-400">JAYA TUITION</h4>
+                    <p class="text-gray-400 text-sm">Empowering students through personalized education and expert guidance since 2018.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="space-y-3">
+                    <h4 class="text-lg font-semibold mb-2">Quick Links</h4>
+                    <ul class="space-y-1 text-sm text-gray-400">
+                        <li><a href="#courses" class="hover:text-indigo-400 transition">Courses</a></li>
+                        <li><a href="#tutors" class="hover:text-indigo-400 transition">Our Tutors</a></li>
+                        <li><a href="#about" class="hover:text-indigo-400 transition">About Us</a></li>
+                        <li><a href="#location" class="hover:text-indigo-400 transition">Location</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 & 4: Contact Information (WhatsApp, Email, Address) -->
+                <div class="md:col-span-2 space-y-3">
+                    <h4 class="text-lg font-semibold mb-2">Get In Touch</h4>
+                    <ul class="space-y-2 text-sm">
+
+                        <!-- WhatsApp Link -->
+                        <!--<li class="flex items-center space-x-2 text-gray-300">
+                            <span class="text-green-400 text-xl font-bold">💬</span>
+                            <a href="https://wa.me/60162912395" target="_blank" class="hover:text-indigo-400 transition">
+                                WhatsApp Us: <span class="font-medium text-white">+60 162912395 </span>
+                            </a>
+                        </li>-->
+
+                        <!-- Email Link -->
+                        <li class="flex items-center space-x-2 text-gray-300">
+                            <span class="text-yellow-400 text-xl">📧</span>
+                            <a href="mailto:jayatuition.klang@gmailcom" class="hover:text-indigo-400 transition">
+                                Email: <span class="font-medium text-white">jayatuition.klang@gmail.com</span>
+                            </a>
+                        </li>
+
+                        <!-- Address -->
+                        <!--<li class="flex items-start space-x-2 pt-2 text-gray-300">
+                            <span class="text-red-400 text-xl pt-0.5">📍</span>
+                            <p>Address: 57 Jalan Batu Nilam 32, <br/> Bandar Bukit Tinggi 2,<br/> 41200 Klang, Selangor</p>
+                        </li>-->
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright Line -->
+            <div class="text-center text-sm text-gray-500">
+                <p>&copy; 2025 Jaya Tuition. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
