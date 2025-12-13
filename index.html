@@ -132,6 +132,133 @@
                     </div>
                 </div>
             </section>
+            <!-- Add this section to your homepage -->
+<section class="resources-section">
+    <div class="container">
+        <h2>Learning Resources</h2>
+        
+        <div class="resource-cards">
+            <div class="resource-card spm-card">
+                <div class="card-icon">📐</div>
+                <h3>SPM Additional Mathematics</h3>
+                <p class="card-description">
+                    Interactive practice questions for Form 4 and Form 5 students preparing for SPM
+                </p>
+                
+                <ul class="feature-list">
+                    <li>✓ Comprehensive topic coverage</li>
+                    <li>✓ Instant feedback & explanations</li>
+                    <li>✓ LaTeX math rendering</li>
+                    <li>✓ Progress tracking</li>
+                    <li>✓ Mobile-friendly interface</li>
+                </ul>
+                
+                <a href="spm-practice.html" class="btn-launch">
+                    Launch Practice App →
+                </a>
+            </div>
+            
+            <!-- Add more resource cards here as needed -->
+        </div>
+    </div>
+</section>
+
+<style>
+    .resources-section {
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .resources-section h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #2d3748;
+        margin-bottom: 50px;
+    }
+    
+    .resource-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 30px;
+    }
+    
+    .resource-card {
+        background: white;
+        padding: 40px 30px;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+    
+    .resource-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    .card-icon {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    
+    .resource-card h3 {
+        color: #4F46E5;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .card-description {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+    
+    .feature-list {
+        list-style: none;
+        padding: 0;
+        margin: 25px 0;
+        text-align: left;
+    }
+    
+    .feature-list li {
+        padding: 8px 0;
+        color: #555;
+        font-size: 0.95rem;
+    }
+    
+    .btn-launch {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 15px 35px;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s;
+        margin-top: 20px;
+    }
+    
+    .btn-launch:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    }
+    
+    @media (max-width: 768px) {
+        .resources-section h2 {
+            font-size: 2rem;
+        }
+        
+        .resource-cards {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
 
             <!-- COURSES SECTION -->
             <section id="courses" class="pt-12 mb-16">
@@ -273,3 +400,4 @@
     
 </body>
 </html>
+
